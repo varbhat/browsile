@@ -207,7 +207,7 @@ func dirList(w http.ResponseWriter, r *http.Request, f File) {
 		</a>
 		<div class="p-5">
 			<a href="%s">
-				<h5  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">%s</h5>
+				<h5  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white break-all">%s</h5>
 			</a>
 			<div class="flex">
 				<a class="inline-flex items-center mx-1 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 %s" href="%s?archive=tar">tar</a>
